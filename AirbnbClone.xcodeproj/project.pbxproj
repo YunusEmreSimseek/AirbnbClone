@@ -66,6 +66,10 @@
 		24C3FAD82C5D4B8600DCA8C8 /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C3FAD42C5D4B8600DCA8C8 /* profile.png */; };
 		24C3FAD92C5D4B8600DCA8C8 /* main.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C3FAD52C5D4B8600DCA8C8 /* main.png */; };
 		24C3FADA2C5D4B8600DCA8C8 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C3FAD62C5D4B8600DCA8C8 /* login.png */; };
+		24C3FAE02C5D4F8800DCA8C8 /* when.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C3FADC2C5D4F8800DCA8C8 /* when.png */; };
+		24C3FAE12C5D4F8800DCA8C8 /* where.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C3FADD2C5D4F8800DCA8C8 /* where.png */; };
+		24C3FAE22C5D4F8800DCA8C8 /* who.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C3FADE2C5D4F8800DCA8C8 /* who.png */; };
+		24C3FAE32C5D4F8800DCA8C8 /* detail.png in Resources */ = {isa = PBXBuildFile; fileRef = 24C3FADF2C5D4F8800DCA8C8 /* detail.png */; };
 		24C559482C5544240005D12F /* WisihlistViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C559472C5544240005D12F /* WisihlistViewModel.swift */; };
 		24CABDE92C5BCF0500EB4762 /* TitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CABDE82C5BCF0500EB4762 /* TitleText.swift */; };
 		24D14C192C593BDC0024C9AE /* PageTitleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D14C182C593BDC0024C9AE /* PageTitleText.swift */; };
@@ -135,6 +139,10 @@
 		24C3FAD52C5D4B8600DCA8C8 /* main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main.png; sourceTree = "<group>"; };
 		24C3FAD62C5D4B8600DCA8C8 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
 		24C3FADB2C5D4BB400DCA8C8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		24C3FADC2C5D4F8800DCA8C8 /* when.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = when.png; sourceTree = "<group>"; };
+		24C3FADD2C5D4F8800DCA8C8 /* where.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = where.png; sourceTree = "<group>"; };
+		24C3FADE2C5D4F8800DCA8C8 /* who.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = who.png; sourceTree = "<group>"; };
+		24C3FADF2C5D4F8800DCA8C8 /* detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail.png; sourceTree = "<group>"; };
 		24C559472C5544240005D12F /* WisihlistViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WisihlistViewModel.swift; sourceTree = "<group>"; };
 		24CABDE82C5BCF0500EB4762 /* TitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleText.swift; sourceTree = "<group>"; };
 		24D14C182C593BDC0024C9AE /* PageTitleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTitleText.swift; sourceTree = "<group>"; };
@@ -446,6 +454,10 @@
 		24C3FAD22C5D4B0700DCA8C8 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
+				24C3FADF2C5D4F8800DCA8C8 /* detail.png */,
+				24C3FADC2C5D4F8800DCA8C8 /* when.png */,
+				24C3FADD2C5D4F8800DCA8C8 /* where.png */,
+				24C3FADE2C5D4F8800DCA8C8 /* who.png */,
 				24C3FAD62C5D4B8600DCA8C8 /* login.png */,
 				24C3FAD52C5D4B8600DCA8C8 /* main.png */,
 				24C3FAD42C5D4B8600DCA8C8 /* profile.png */,
@@ -555,9 +567,13 @@
 			files = (
 				2485B39A2C53B24A00B3216E /* Preview Assets.xcassets in Resources */,
 				2485B3972C53B24A00B3216E /* Assets.xcassets in Resources */,
+				24C3FAE12C5D4F8800DCA8C8 /* where.png in Resources */,
 				24C3FAD92C5D4B8600DCA8C8 /* main.png in Resources */,
+				24C3FAE32C5D4F8800DCA8C8 /* detail.png in Resources */,
 				243BA0DE2C567F84003FB589 /* GoogleService-Info.plist in Resources */,
 				24C3FAD82C5D4B8600DCA8C8 /* profile.png in Resources */,
+				24C3FAE22C5D4F8800DCA8C8 /* who.png in Resources */,
+				24C3FAE02C5D4F8800DCA8C8 /* when.png in Resources */,
 				24C3FAD72C5D4B8600DCA8C8 /* signup.png in Resources */,
 				24C3FADA2C5D4B8600DCA8C8 /* login.png in Resources */,
 			);
